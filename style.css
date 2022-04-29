@@ -48,6 +48,7 @@ height: 40px;
 }
 .toggle{
     display: grid;
+    grid-template-columns: 2fr auto;
     place-items: end;
 }
 button{
@@ -59,4 +60,16 @@ border-radius: 50px;
 }
 #special{
   height: 84px;
+}
+button #toggle-dark{
+    position: relative;
+align-self: center;
+justify-self: end;
+}
+.switch{
+    align-self: center;
+    justify-self: end;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-variant: small-caps;
 }
